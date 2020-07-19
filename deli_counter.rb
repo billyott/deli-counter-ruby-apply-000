@@ -9,6 +9,7 @@ def line(line_of_people)
     line_of_people.each do |person|
       position += 1
       line_string += " #{position}. #{person}"
+    end
     puts line_string
   end
 end
